@@ -1,10 +1,10 @@
 # Brain_tumour_detection
 Incopration of the Grad-Cam technique in CNN - custom based brain tumour detection
 
-## AIM
+## Aim
 This research project is aimed at developing and evaluating a custom-based convolutional neural network (CNN) approach for the automation of sub-categorisation of the four (4) classes of brain tumours from MRIs using the Pytorch Deep learning Framework and using the Grad-CAM (Gradient-weighted class activation mapping) Visualization tool to capture intrinsic features on the tumour types. Grad-CAM is a visualization tool that is used in medical imaging for highlighting the most important parts for model’s decision. Pytorch, which is used for training and developing the model is a machine learning library based on the Torch library, and can be used for computer vision applications. 
 
-## THE RESEARCH GAP ANALYSIS:
+## The research gap analysis:
 Some well known CNNs used in brain tumour detection include the LeNet, VGG, AlexNet, ResNet-50, etc have recorded successes in accuracy but limitations in these models are overfitting, misclassification, lack of the model to generalize accordingly to unseen and new dataset. Using the custom-based CNN, the aim is to reduce these constraints in modelling and introduce the Grad-CAM Visualization tool. 
 ## Summary
 Brain tumors are abnormal growths in the brain that can be life-threatening. Early and accurate detection is crucial for effective treatment. This project focuses on using convolutional neural networks (CNNs), a type of deep learning model, to identify brain tumors from MRI images. The custom CNN model was trained and evaluated by employing interpretability technique and class weighting to mitigate class imbalance. The proposed CNN achieved an accuracy of 97.10%, outperforming some existing research models in regard to precision, recall and F1-Score.To make the model’s decisions understandable to doctors, Gradient-weighted class activation mapping (Grad-CAM) was incorporated. Grad-CAM produces heatmaps that highlight areas in the MRI images influencing the model’s predictions, aligning with regions of interest identified by medical professionals. This combination of CNNs and Grad-CAM not only aims to achieve high accuracy in detecting brain tumors but also provides visual explanations, enhancing trust and facilitating informed decision-making in clinical settings.
